@@ -11,7 +11,7 @@ void bubblesort(int a[], int n)// Es steht Bubble sort, aber soll es nicht rever
     int k,t;
     for (int i = 0; i <= n-1; i++)// In dem Blockdiagramm steht es i<n-1
     {
-        for (k = n-1; k>-1; k--)// In dem Blockdiagramm steht es k>!
+        for (k = n-1; k>-1; k--)// In dem Blockdiagramm steht es k>1
         {
             if(a[k]>a[k-1])
             {
