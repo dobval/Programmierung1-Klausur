@@ -39,3 +39,60 @@ int main() // Soll man die Eingabe auch schreiben? Oder nur die bubblesort() Fun
     return 0;
 }
 ```
+
+### A4) Funktion d_sum() zum summieren von reellen Zahlen die mindestens zwei mal größer als *p* sind
+```
+#include <stdio.h>
+
+void d_sum(float k[], int nk, float p, float *sum, int *count)
+{
+    *sum = 0;
+    *count = 0;
+    int arrlength = nk;
+    for (int i = 0; i<arrlength; i++)
+    {
+        if (k[i]>=2*p)
+        {
+            *sum += k[i];
+            *count++;
+        }
+    }
+}
+
+int main()
+{
+    int nk;
+    float p;
+    printf("Enter nk:");
+    scanf("%d", &nk);
+    if (nk < 1 || nk > 30)
+    {
+        printf("error: nk<1 or nk>30!");
+        return 0;
+
+    }
+    
+    float k[nk];
+    for (int i = 0; i<nk; i++)
+    {
+        printf("Enter number [%d]:", i);
+        scanf("%f", &k[i]);
+    }
+    
+    printf("Enter p:");
+    scanf("%f", &p);
+    
+    printf("\nRow k:\n");
+    for (int i = 0; i < nk; i++) {
+        printf("k[%d]: %.2lf\n", i, k[i]);
+    }
+    
+    float sum;
+    int count;
+    d_sum(k, nk, p, &sum, &count);
+    printf("sum: %f\n", sum);
+    printf("count: %d", count);
+    
+    return 0;
+}
+```
