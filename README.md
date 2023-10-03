@@ -40,6 +40,40 @@ int main() // Soll man die Eingabe auch schreiben? Oder nur die bubblesort() Fun
 }
 ```
 
+### A3) Datenstrom, summieren von bruchzahlen
+```
+#include <stdio.h>
+
+int main ()
+{
+  int p, a, b, bruchAnzahl = 0;
+  float bruchSumme = 0;
+  printf ("Geben Sie p ein: ");
+  scanf ("%d", &p);
+  do
+    {
+      printf ("Geben Sie a ein:");
+      scanf ("%d", &a);
+      printf ("Geben Sie b ein:");
+      scanf ("%d", &b);
+      if (b != 0)
+	{
+	  bruchSumme += a / b;
+	  if (a / b < p)
+	    {
+	      bruchAnzahl++;
+	    }
+	}
+
+    }
+  while (b != 0);
+
+  printf ("Summe aller Bruchzahlen: %.2f\n", bruchSumme);
+  printf ("Anzahl aller Bruchzahlen < %d: %d", p, bruchAnzahl);
+  return 0;
+}
+```
+
 ### A4) Funktion d_sum() zum summieren von reellen Zahlen die mindestens zwei mal größer als *p* sind
 ```
 #include <stdio.h>
