@@ -2,6 +2,7 @@
 Versuche an die Klausur. C Ausgaben und Programmen.
 
 ## Klausur 2019-01-26_1
+***Papierversuch 06.10: ~81 Punkte (5.7)***
  ### A2) Bubble sort Blockdiagramm
  ```
  #include <stdio.h>
@@ -75,6 +76,52 @@ int main ()
 ```
 
 ### A4) Funktion d_sum() zum summieren von reellen Zahlen die mindestens zwei mal größer als *p* sind
+
+<details>
+<summary><b>Papierversion (geht es mit printf() in d_sum() oder soll es in main() sein?)</b></summary>
+<br>
+
+```
+#include <stdio.h>
+
+void d_sum(float a[], float p){
+    int n=sizeof(a)/sizeof(a[0]);
+    int count = 0;
+    float sum = 0;
+    for (int i = 0; i<n; i++)
+    {
+        if (a[i]>p*2)
+        {
+            count++;
+            sum+=a[i];
+        }
+    }
+    printf("SUM: %f\n", sum);
+    printf("COUNT: %d\n", count);
+}
+
+int main()
+{
+    int nk=0;
+    scanf("%d",&nk);
+    
+    if (!(nk<=30||nk>0))
+    
+        return 0;
+    
+    float p, k[nk];
+    scanf("%f", &p);
+    for (int i=0;i<nk;i++)
+    {
+        scanf("%f", &k[i]);
+    }
+    d_sum(k,p);
+    
+    return 0;
+}
+```
+</details>
+
 ```
 #include <stdio.h>
 
