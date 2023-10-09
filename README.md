@@ -9,7 +9,7 @@ Versuche an die Klausur. C Ausgaben und Programmen.
 
 void bubblesort(int a[], int n)// Es steht Bubble sort, aber soll es nicht reverse Bubble sort sein?
 {
-    int k,t;
+    int k,t; // Soll man Variablen deklarieren? Im Blockdiagramm sind sie nicht
     for (int i = 0; i <= n-1; i++)// In dem Blockdiagramm steht es i<n-1
     {
         for (k = n-1; k>-1; k--)// In dem Blockdiagramm steht es k>1
