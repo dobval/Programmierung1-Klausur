@@ -1,6 +1,8 @@
 # Programmierung1-Klausur
 Versuche an die Klausur. C Ausgaben und Programmen.
 
+## *IMPORTANT INFO: Blockdiagrammen brauchen keine Ein- oder Ausgabe ("a bit non-sensical")*
+
 ## Klausur *2019-01-26_1*
 ***Papierversuch 06.10: ~81 Punkte (5.7)***
  ### A2) Bubble sort Blockdiagramm
