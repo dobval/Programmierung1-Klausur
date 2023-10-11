@@ -3,6 +3,26 @@ Versuche an die Klausur. C Ausgaben und Programmen.
 
 ## *IMPORTANT INFO: Blockdiagrammen brauchen keine Ein- oder Ausgabe ("a bit non-sensical")*
 
+## Klausur *2019-01-26_2*
+### A2) Blockdiagramm
+```
+switch(c)
+    {
+        case 1:
+        if (m)
+            p=m+c;
+            break;
+        case 4:
+            while (n>0)
+                n-=m;
+            break;
+        default:
+            p=0;
+            break;
+    }
+    m=p
+```
+
 ## Klausur *2019-01-26_1*
 ***Papierversuch 06.10: ~81 Punkte (5.7)***
  ### A2) Bubble sort Blockdiagramm
