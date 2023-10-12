@@ -4,6 +4,7 @@ Versuche an die Klausur. C Ausgaben und Programmen.
 ## *IMPORTANT INFO: Blockdiagrammen brauchen keine Ein- oder Ausgabe ("a bit non-sensical")*
 
 ## Klausur *2019-01-26_2*
+***Papierversuch 12.10: ~93 Punkte (6.0)***
 ### A2) Blockdiagramm
 ```
 switch(c)
