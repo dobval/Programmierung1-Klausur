@@ -2,7 +2,9 @@
 Versuche an die Klausur. C Ausgaben und Programmen.
 
 ## *IMPORTANT INFO: Blockdiagrammen brauchen keine Ein- oder Ausgabe ("a bit non-sensical")*
-# TODO: Letzter Papierversuch
+
+## Klausur *2020-...?*
+***Papierversuch 15.10: ~100 Punkte (6.0)***
 ## Klausur *2021-02-04_1*
 ***Papierversuch 13.10: ~100 Punkte (6.0)***
 ## Klausur *2019-01-26_2*
