@@ -3,7 +3,12 @@ Versuche an die Klausur. C Ausgaben und Programmen.
 
 ## *IMPORTANT INFO: Blockdiagrammen brauchen keine Ein- oder Ausgabe ("a bit non-sensical")*
 ## Letzte Tipps:
-
+1. while(1) und if(b==0) break; benutzen statt do-while
+2. \n nicht vergessen
+3. int count = sum = 0, vor dem Funktionsaufruf
+4. void func(float *array, int *sum, int nk...), beim Aufruf: func(array, &sum, nk...)
+5. switch-case braucht kein default case
+6. bei minimaler Wert Aufgaben nicht vergessen: *min = arr[0]; 
 ## Klausur *2020-...?*
 ***Papierversuch 15.10: ~100 Punkte (6.0)***
 ## Klausur *2021-02-04_1*
