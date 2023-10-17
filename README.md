@@ -1,6 +1,6 @@
 # Programmierung1-Klausur
 Versuche an die Klausur. C Ausgaben und Programmen.
-
+# Fertig: 6.0 :D
 ## *IMPORTANT INFO: Blockdiagrammen brauchen keine Ein- oder Ausgabe ("a bit non-sensical")*
 ## Letzte Tipps:
 1. while(1) und if(b==0) break; benutzen statt do-while
