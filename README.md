@@ -36,7 +36,7 @@ switch(c)
  ### A2) Bubble sort Blockdiagramm
  ```
  // Es steht Bubble sort, aber soll es nicht reverse aber soll es nicht reverse Bubble Sort sein
-    for (int i = 0; i <= n-1; i++)// In dem Blockdiagramm steht es i<n-1
+    for (int i = 0; i < n-1; i++)// In dem Blockdiagramm steht es i<n-1
     {
         for (k = n-1; k>1; k--)// In dem Blockdiagramm steht es k>1
         {
